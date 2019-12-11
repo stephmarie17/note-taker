@@ -123,6 +123,7 @@ var renderNoteList = function(notes) {
 
     $li.append($span, $delBtn);
     noteListItems.push($li);
+    console.log(notes);
   }
 
   $noteList.append(noteListItems);
