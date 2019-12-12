@@ -51,12 +51,17 @@ var renderActiveNote = function() {
     $noteText.val("");
   }
 };
+// function to add a unique ID
+var ID = function() {
+  return '_' + Math.random().toString(36).substr(2, 9);
+};
 
 // Get the note data from the inputs, save it to the db and update the view
 var handleNoteSave = function() {
   var newNote = {
     title: $noteTitle.val(),
-    text: $noteText.val()
+    text: $noteText.val(),
+    id: ID()
   };
 
   saveNote(newNote).then(function(data) {
