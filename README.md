@@ -9,7 +9,7 @@ The code for this application can be accessed here:
 [GitHub Repository](https://github.com/stephmarie17/note-taker)
 
 The deployed application can be accessed here:
-[Deployed Site]()
+[Deployed Site](https://agile-stream-31653.herokuapp.com/)
 
 ### Usage
 To use the app, navigate to the /notes page. Add a note by filling in the title and text, then clicking the dynamically rendered save button. To view the note, click on the title that displays on the left-hand sidebar. Click the delete icon to delete a note.
