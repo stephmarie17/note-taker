@@ -24,9 +24,6 @@ var saveNote = function(note) {
   });
 };
 
-// A function to add an id to a note
-
-
 // A function for deleting a note from the db
 var deleteNote = function(id) {
   return $.ajax({
